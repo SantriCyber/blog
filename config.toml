@@ -1,11 +1,16 @@
-
-baseURL = "https://santricyber.github.io/blog"
-languageCode = "en-us"
+baseURL = "https://santricyber.github.io/blog/"
+languageCode = "id"
 title = "SantriCyber Blog"
 theme = "dream"
 
 [params]
-  lightTheme = "emerald"
-  darkTheme = "forest"
-  author = "SantriCyber"
-  headerTitle = "SantriCyber Blog"
+lightTheme = "emerald"
+darkTheme = "forest"
+author = "Syafmovic"
+headerTitle = "SantriCyber"
+siteStartYear = 2025
+
+[author]
+name = "Syafmovic"
+homepage = "https://santricyber.github.io"
+

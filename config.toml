@@ -1,33 +1,18 @@
-[author]
-name = "Syafmovic"
-homepage = "https://santricyber.github.io"
-
 baseURL = "https://santricyber.github.io/blog/"
 languageCode = "en-us"
 title = "SantriCyber Blog"
-theme = "lightbi" # Ganti ini kalau mau coba theme lain
+theme = "lightbi"
 paginate = 10
-
-# Build settings
 enableRobotsTXT = true
 
 [params]
   description = "Blog resmi SantriCyber"
   keywords = ["santri", "teknologi", "pemrograman", "blog"]
-lightTheme = "emerald"
-darkTheme = "forest"
-author = "Syafmovic"
-headerTitle = "SantriCyber"
-siteStartYear = 2007
 
-
-
-  # Untuk theme yang pakai author.name
   [params.author]
     name = "SantriCyber"
     email = "contact@santricyber.org"
 
-  # Untuk theme yang pakai social links
   [[params.social]]
     name = "GitHub"
     url = "https://github.com/SantriCyber"
@@ -38,7 +23,6 @@ siteStartYear = 2007
     url = "https://x.com/SantriCyber"
     icon = "twitter"
 
-# Menu (jika theme pakai)
 [menu]
 
   [[menu.main]]

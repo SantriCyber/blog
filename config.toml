@@ -1,7 +1,7 @@
 baseURL = "https://santricyber.github.io/blog/"
 languageCode = "id"
 title = "SantriCyber Blog"
-theme = "dream"
+theme = "lightbi"
 
 [params]
 lightTheme = "emerald"

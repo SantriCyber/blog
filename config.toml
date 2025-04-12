@@ -7,8 +7,8 @@ theme = "dream"
 lightTheme = "emerald"
 darkTheme = "forest"
 author = "Syafmovic"
-headerTitle = "SantriCyber"
-siteStartYear = 2025
+headerTitle = "SantriCyber | Blog, News, Information"
+siteStartYear = 2007
 
 [author]
 name = "Syafmovic"

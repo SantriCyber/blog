@@ -1,27 +1,17 @@
 baseURL = "https://santricyber.github.io/blog/"
 languageCode = "en-us"
 title = "SantriCyber Blog"
-theme = "lightbi"
+theme = "dream" # atau theme lainnya
 paginate = 10
 enableRobotsTXT = true
+
+[author]
+  name = "SantriCyber"
+  email = "contact@santricyber.org"
 
 [params]
   description = "Blog resmi SantriCyber"
   keywords = ["santri", "teknologi", "pemrograman", "blog"]
-
-  [params.author]
-    name = "SantriCyber"
-    email = "contact@santricyber.org"
-
-  [[params.social]]
-    name = "GitHub"
-    url = "https://github.com/SantriCyber"
-    icon = "github"
-
-  [[params.social]]
-    name = "X"
-    url = "https://x.com/SantriCyber"
-    icon = "twitter"
 
 [menu]
 
@@ -29,13 +19,3 @@ enableRobotsTXT = true
     name = "Beranda"
     url = "/"
     weight = 1
-
-  [[menu.main]]
-    name = "Tentang"
-    url = "/about/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Kontak"
-    url = "/contact/"
-    weight = 3

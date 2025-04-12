@@ -1,0 +1,11 @@
+
+baseURL = "https://santricyber.github.io/blog"
+languageCode = "en-us"
+title = "SantriCyber Blog"
+theme = "dream"
+
+[params]
+  lightTheme = "emerald"
+  darkTheme = "forest"
+  author = "SantriCyber"
+  headerTitle = "SantriCyber Blog"

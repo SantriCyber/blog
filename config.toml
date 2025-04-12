@@ -1,6 +1,6 @@
 baseURL = "https://santricyber.github.io/blog/"
 languageCode = "en-us"
-title = "SantriCyber Blog"
+title = "SantriCyber"
 theme = "lightbi"
 paginate = 10
 enableRobotsTXT = true
@@ -10,8 +10,8 @@ enableRobotsTXT = true
   keywords = ["santri", "teknologi", "pemrograman", "blog"]
 
   [params.author]
-    name = "SantriCyber"
-    email = "staff@santri"
+    name = "sz"
+    email = "sz@santri.dev"
 
   [[params.social]]
     name = "GitHub"

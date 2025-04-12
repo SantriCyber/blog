@@ -19,9 +19,9 @@ pagerSize = 6
 selfHosted = true
 mainSections = ["post", "posts"]
 dateFormat = "02 January 2006"
-comments = false
-readingTime = false
-wordCount = false
+comments = true
+readingTime = true
+wordCount = true
 useHLJS = true
 socialShare = true
 delayDisqus = true
@@ -34,7 +34,7 @@ rss = false
 pagination = "10"
 hideAuthor = false
 description = "SantriCyber is a community for Santri and tech enthusiasts to share and learn about Islam, programming, cybersecurity, and technology. #SantriCyber.."
-previewCardImagePlacement = "bottom"
+previewCardImagePlacement = "top"
 showPostImage = false
 
 [Params.Author]

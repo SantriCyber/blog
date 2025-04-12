@@ -33,24 +33,24 @@ lastmod = false
 rss = false
 pagination = "10"
 hideAuthor = false
-description = "Media belajar ngaji dan ngoding ala santri masa kini."
+description = "SantriCyber is a community for Santri and tech enthusiasts to share and learn about Islam, programming, cybersecurity, and technology. #SantriCyber.."
 previewCardImagePlacement = "bottom"
 showPostImage = false
 
 [Params.Author]
   name = "SantriCyber"
-  website = "https://santricyber.org"
-  authorInfo = "Membangun masa depan dengan ngaji dan ngoding."
+  website = "https://santri.dev"
+  authorInfo = "Share, Learn, Pray."
   authorPostImage = "/img/author-post-img.jpg"
-  email = "contact@santricyber.org"
-  facebook = "santricyber"
-  instagram = "santricyber"
-  youtube = "user/santricyber"
+  email = "staff@santri.dev"
+  facebook = "santricyber.dev"
+  instagram = "santricyber.dev"
+  youtube = "user/santricyberdev"
   twitter = "santricyber"
-  linkedin = "santricyber"
   github = "SantriCyber"
   telegram = "santricyber"
-  stackoverflow = "users/1234567/santricyber"
+  tiktok = "santricyber.dev"
+
 
 [[menu.main]]
   name = "Home"
@@ -58,8 +58,8 @@ showPostImage = false
   weight = 1
 
 [[menu.main]]
-  name = "Notes"
-  url = "/notes/"
+  name = "Forums"
+  url = "https://forum.santri.dev"
   weight = 2
 
 [[menu.main]]

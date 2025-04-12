@@ -1,41 +1,83 @@
 baseURL = "https://santricyber.github.io/blog/"
-languageCode = "en-us"
+DefaultContentLanguage = "id"
+defaultContentLanguageInSubdir = false
+languageCode = "id-ID"
 title = "SantriCyber"
-theme = "lightbi"
-paginate = 10
+theme = "lightbi-hugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsCodefencesGuessSyntax = true
 enableRobotsTXT = true
+enableGitInfo = false
+summaryLength = "30"
+ignoreLogs = ['warning-goldmark-raw-html']
 
-[params]
-  description = "SantriCyber - Official"
-  keywords = ["santri", "teknologi", "pemrograman", "blog"]
+[pagination]
+pagerSize = 6
 
-  [params.author]
-    name = "sz"
-    email = "sz@santri.dev"
+[Params]
+selfHosted = true
+mainSections = ["post", "posts"]
+dateFormat = "02 January 2006"
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = true
+summaryLength = "9"
+lunrSearch = true
+gcse = false
+lastmod = false
+rss = false
+pagination = "10"
+hideAuthor = false
+description = "Media belajar ngaji dan ngoding ala santri masa kini."
+previewCardImagePlacement = "bottom"
+showPostImage = false
 
-  [[params.social]]
-    name = "GitHub"
-    url = "https://github.com/SantriCyber"
-    icon = "github"
+[Params.Author]
+  name = "SantriCyber"
+  website = "https://santricyber.org"
+  authorInfo = "Membangun masa depan dengan ngaji dan ngoding."
+  authorPostImage = "/img/author-post-img.jpg"
+  email = "contact@santricyber.org"
+  facebook = "santricyber"
+  instagram = "santricyber"
+  youtube = "user/santricyber"
+  twitter = "santricyber"
+  linkedin = "santricyber"
+  github = "SantriCyber"
+  telegram = "santricyber"
+  stackoverflow = "users/1234567/santricyber"
 
-  [[params.social]]
-    name = "X"
-    url = "https://x.com/SantriCyber"
-    icon = "twitter"
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
-[menu]
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 2
 
-  [[menu.main]]
-    name = "Beranda"
-    url = "/"
-    weight = 1
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/blog/"
+  weight = 3
 
-  [[menu.main]]
-    name = "Tentang"
-    url = "/about/"
-    weight = 2
+[[menu.main]]
+  name = "Collections"
+  url = "/collections/"
+  weight = 4
 
-  [[menu.main]]
-    name = "Kontak"
-    url = "/contact/"
-    weight = 3
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 5
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

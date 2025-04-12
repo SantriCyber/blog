@@ -1,13 +1,13 @@
 baseURL = "https://santricyber.github.io/blog/"
 languageCode = "id"
-title = "SantriCyber Blog"
+title = "SantriCyber | Information, News, Blog"
 theme = "lightbi"
 
 [params]
 lightTheme = "emerald"
 darkTheme = "forest"
 author = "Syafmovic"
-headerTitle = "SantriCyber | Blog, News, Information"
+headerTitle = "SantriCyber"
 siteStartYear = 2007
 
 [author]

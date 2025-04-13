@@ -23,4 +23,4 @@ jobs:
         env:
           DISCOURSE_API_KEY: ${{ secrets.DISCOURSE_API_KEY }}
         run: |
-          python3 discourseHugo.py
+          python3 blog/discourseHugo.py
